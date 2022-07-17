@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,33 +20,38 @@
 	</head>
 	<body class="page">
 		<!-- Верхняя линия -->
-		<header class="page-heder">
+		<header class="page-header container container-padding-no">
 			<!-- Menu Nav -->
-			<nav class="heder-nav container">
-				<a class="logo-header link" lang="en" href="./index.html"> <span class="logo-colorized">Web</span>Studio</a>
-				<ul class="heder-nav-list list">
-					<li class="heder-nav-item"><a class="heder-nav-link link curent" href="./index.html">Студия</a></li>
-					<li class="heder-nav-item"><a class="heder-nav-link link" href="./portfolio.html">Портфолио</a></li>
-					<li class="heder-nav-item"><a class="heder-nav-link link" href="./contacts.html">Контакты</a></li>
-				</ul>
-			</nav>
 			<div class="container">
-				<ul class="heder-auth-nav list">
-					<li><a class="heder-auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a class="heder-auth-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				<nav class="header-nav">
+					<a class="logo-header link" lang="en" href="./index.html"> <span class="logo-colorized">Web</span>Studio</a>
+					<ul class="header-nav-list list">
+						<li class="header-nav-item"><a class="header-nav-link link curent" href="./index.html">Студія</a></li>
+						<li class="header-nav-item"><a class="header-nav-link link" href="./portfolio.html">Портфоліо</a></li>
+						<li class="header-nav-item"><a class="header-nav-link link" href="./contacts.html">Контакти</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container">
+				<ul class="header-auth-nav list">
+					<li class="header-auth-item">
+						<a class="header-auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+					</li>
+					<li class="header-auth-item">
+						<a class="header-auth-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+					</li>
 				</ul>
 			</div>
+			<!-- </div> -->
 		</header>
 		<!-- Main -->
 		<main>
 			<!-- Герой -->
 			<section class="section-hero">
-				<h1 class="section-hero-title">
-					Эффективные решения
-					<br />
-					для вашего бизнеса
-				</h1>
-				<button class="section-hero-button" type="button">Заказать услугу</button>
+				<div class="container hero-container">
+					<h1 class="section-hero-title">Ефективні рішення для<br />вашого бізнесу</h1>
+					<button class="section-hero-button" type="button">Замовити послугу</button>
+				</div>
 			</section>
 			<!-- Наши приемущества -->
 			<section class="section-feature section">
@@ -54,66 +59,62 @@
 					<h2 class="section-feature-title visually-hidden">Наши приемущества</h2>
 					<ul class="section-feature-list list">
 						<li class="feature-list-item">
-							<h3 class="feature-list-title">Внимание к деталям</h3>
+							<h3 class="feature-list-title">Увага до деталей</h3>
 							<p class="feature-list-text">
-								Идейные соображения, а также начало повседневной работы по формированию позиции.
+								Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
 							</p>
 						</li>
 						<li class="feature-list-item">
-							<h3 class="feature-list-title">Пунктуальность</h3>
+							<h3 class="feature-list-title">ПУНКТУАЛЬНІСТЬ</h3>
 							<p class="feature-list-text">
-								Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+								Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
 							</p>
 						</li>
 						<li class="feature-list-item">
-							<h3 class="feature-list-title">Планирование</h3>
-							<p class="feature-list-text">
-								Равным образом консультация с широким активом в значительной степени обуславливает.
-							</p>
+							<h3 class="feature-list-title">ПЛАНУВАННЯ</h3>
+							<p class="feature-list-text">Так само консультація з широким активом значною мірою зумовлює.</p>
 						</li>
 						<li class="feature-list-item">
-							<h3 class="feature-list-title">Современные технологии</h3>
+							<h3 class="feature-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
 							<p class="feature-list-text">
-								Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+								Значимість цих проблем настільки очевидна, що реалізація планових завдань.
 							</p>
 						</li>
 					</ul>
 				</div>
 			</section>
-			<!-- Чем мы занимаемся -->
-			<section class="section-practice">
-				<div class="container">
-					<h2 class="section-practice-title">Чем мы занимаемся</h2>
-					<ul class="section-practice-list">
-						<li class="section-practice-list list">
-							<img
-								class="section-practice-img"
-								src="./images//studio/box-1-software-dev.jpg"
-								alt="Разработка программного
+			<!-- Чим ми займаємося -->
+			<section class="section-practice section container">
+				<h2 class="section-practice-title">Чим ми займаємося</h2>
+				<ul class="section-practice-list">
+					<li class="section-practice-item list">
+						<img
+							class="section-practice-img"
+							src="./images//studio/box-1-software-dev.jpg"
+							alt="Разработка программного
 								обеспечения"
-								width="370"
-							/>
-						</li>
-						<li class="section-practice-list list">
-							<img
-								class="section-practice-img"
-								src="./images/studio/box-2-mobile-testing-app.jpg"
-								alt="Тестирование мобильных
+							width="370"
+						/>
+					</li>
+					<li class="section-practice-item list">
+						<img
+							class="section-practice-img"
+							src="./images/studio/box-2-mobile-testing-app.jpg"
+							alt="Тестирование мобильных
 								приложений"
-								width="370"
-							/>
-						</li>
-						<li class="section-practice-list list">
-							<img
-								class="section-practice-img"
-								src="./images/studio/box-3-working-with-color-effects.jpg"
-								alt="Работа с цветными
+							width="370"
+						/>
+					</li>
+					<li class="section-practice-item list">
+						<img
+							class="section-practice-img"
+							src="./images/studio/box-3-working-with-color-effects.jpg"
+							alt="Работа с цветными
 								эффектами"
-								width="370"
-							/>
-						</li>
-					</ul>
-				</div>
+							width="370"
+						/>
+					</li>
+				</ul>
 			</section>
 			<!-- Наша команда -->
 			<section class="section-team section">
@@ -128,7 +129,7 @@
 								width="270"
 								class="team-list-img"
 							/>
-							<h3 class="team-list-title">Игорь Демьяненко</h3>
+							<h3 class="team-list-title">Ігор Дем'яненко</h3>
 							<p class="team-list-text" lang="en">Product Designer</p>
 						</li>
 						<li class="team-list-item">
@@ -139,17 +140,17 @@
 								width="270"
 								class="team-list-img"
 							/>
-							<h3 class="team-list-title">Ольга Репина</h3>
+							<h3 class="team-list-title">Ольга Рєпіна</h3>
 							<p class="team-list-text" lang="en">Frontend Developer</p>
 						</li>
 						<li class="team-list-item">
 							<img src="./images/studio/3-nik-tarasov.jpg" alt="Marketing" width="270" class="team-list-img" />
-							<h3 class="team-list-title">Николай Тарасов</h3>
+							<h3 class="team-list-title">Микола Тарасов</h3>
 							<p class="team-list-text" lang="en">Marketing</p>
 						</li>
 						<li class="team-list-item">
 							<img src="./images/studio/4-mih-ermakov.jpg" alt="UI Designer" width="270" class="team-list-img" />
-							<h3 class="team-list-title">Михаил Ермаков</h3>
+							<h3 class="team-list-title">Михайло Єрмаков</h3>
 							<p class="team-list-text" lang="en">UI Designer</p>
 						</li>
 					</ul>
@@ -168,7 +169,7 @@
 						rel="noreferrer noopener nofollow"
 						class="address-text link"
 					>
-						г. Киев, пр-т Леси Украинки, 26
+						м. Київ, пр-т Лесі Українки, 26
 					</a>
 					<ul class="footer-contact list">
 						<li class="footer-contact-list link">

@@ -20,33 +20,42 @@
 	</head>
 	<body class="page">
 		<!-- Верхняя линия -->
-		<header class="page-heder">
+		<header class="page-header container container-padding-no">
 			<!-- Menu Nav -->
-			<nav class="heder-nav container">
-				<a class="logo-header link" lang="en" href="./index.html"> <span class="logo-colorized">Web</span>Studio</a>
-				<ul class="heder-nav-list list">
-					<li class="heder-nav-item"><a class="heder-nav-link link" href="./index.html">Студия</a></li>
-					<li class="heder-nav-item"><a class="heder-nav-link link curent" href="./portfolio.html">Портфолио</a></li>
-					<li class="heder-nav-item"><a class="heder-nav-link link" href="./contacts.html">Контакты</a></li>
-				</ul>
-			</nav>
 			<div class="container">
-				<ul class="heder-auth-nav list">
-					<li><a class="heder-auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a class="heder-auth-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				<nav class="header-nav">
+					<a class="logo-header link" lang="en" href="./index.html"> <span class="logo-colorized">Web</span>Studio</a>
+					<ul class="header-nav-list list">
+						<li class="header-nav-item"><a class="header-nav-link link" href="./index.html">Студія</a></li>
+						<li class="header-nav-item">
+							<a class="header-nav-link link curent" href="./portfolio.html">Портфоліо</a>
+						</li>
+						<li class="header-nav-item"><a class="header-nav-link link" href="./contacts.html">Контакти</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container">
+				<ul class="header-auth-nav list">
+					<li class="header-auth-item">
+						<a class="header-auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+					</li>
+					<li class="header-auth-item">
+						<a class="header-auth-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+					</li>
 				</ul>
 			</div>
+			<!-- </div> -->
 		</header>
 		<main>
 			<!-- Портфолио -->
 			<section class="section-portfolio section">
-				<h1 class="section-portfolio-title visually-hidden">Портфолио</h1>
-				<!-- Фильтр -->
 				<div class="container">
+					<h1 class="section-portfolio-title visually-hidden">Портфоліо</h1>
+					<!-- Фильтр -->
 					<ul class="section-portfolio-filter list">
-						<li class="filter-button"><button class="button-list button-curent" type="button">Все</button></li>
-						<li class="filter-button"><button class="button-list" type="button">Веб-сайты</button></li>
-						<li class="filter-button"><button class="button-list" type="button">Приложения</button></li>
+						<li class="filter-button"><button class="button-list button-curent" type="button">Всі</button></li>
+						<li class="filter-button"><button class="button-list" type="button">Веб-сайти</button></li>
+						<li class="filter-button"><button class="button-list" type="button">Додатки</button></li>
 						<li class="filter-button"><button class="button-list" type="button">Дизайн</button></li>
 						<li class="filter-button"><button class="button-list" type="button">Маркетинг</button></li>
 					</ul>
@@ -59,7 +68,6 @@
 								class="portfolio-list-img"
 								alt="Веб-сайт Технокряк"
 								width="370"
-								height="294"
 							/>
 							<h2 class="portfolio-list-title">Технокряк</h2>
 							<p class="portfolio-list-text">Веб-сайт</p>
@@ -70,7 +78,6 @@
 								class="portfolio-list-img"
 								alt="Постер New Orlean vs Golden Star"
 								width="370"
-								height="294"
 							/>
 							<h2 class="portfolio-list-title">
 								Постер
@@ -85,13 +92,12 @@
 								alt="Ресторан
 							Seafood"
 								width="370"
-								height="294"
 							/>
 							<h2 class="portfolio-list-title">
 								Ресторан
 								<span lang="en">Seafood</span>
 							</h2>
-							<p class="portfolio-list-text">Приложение</p>
+							<p class="portfolio-list-text">Додаток</p>
 						</li>
 						<li class="portfolio-list-item">
 							<img
@@ -99,10 +105,9 @@
 								class="portfolio-list-img"
 								alt="Маркетинг Prime"
 								width="370"
-								height="294"
 							/>
 							<h2 class="portfolio-list-title">
-								Проект
+								Проєкт
 								<span lang="en">Prime</span>
 							</h2>
 							<p class="portfolio-list-text">Маркетинг</p>
@@ -111,15 +116,14 @@
 							<img
 								src="./images/portfolio/5-applekation-box.jpg"
 								class="portfolio-list-img"
-								alt="Проект Boxes"
+								alt="Проєкт Boxes"
 								width="370"
-								height="294"
 							/>
 							<h2 class="portfolio-list-title">
-								Проект
+								Проєкт
 								<span lang="eu">Boxes</span>
 							</h2>
-							<p class="portfolio-list-text">Приложение</p>
+							<p class="portfolio-list-text">Додаток</p>
 						</li>
 						<li class="portfolio-list-item">
 							<img
@@ -127,7 +131,6 @@
 								class="portfolio-list-img"
 								alt="Веб-сайт"
 								width="370"
-								height="294"
 							/>
 							<h2 class="portfolio-list-title"><span lang="eu">Inspiration has no Borders</span></h2>
 							<p class="portfolio-list-text">Веб-сайт</p>
@@ -136,12 +139,11 @@
 							<img
 								src="./images/portfolio/7-desige-limited-edition.jpg"
 								class="portfolio-list-img"
-								alt="Издание Limited Edition"
+								alt="Видання Limited Edition"
 								width="370"
-								height="294"
 							/>
 							<h2 class="portfolio-list-title">
-								Издание
+								Видання
 								<span lang="eu">Limited Edition</span>
 							</h2>
 							<p class="portfolio-list-text">Дизайн</p>
@@ -150,12 +152,11 @@
 							<img
 								src="./images/portfolio/8-marketing-lab.jpg"
 								class="portfolio-list-img"
-								alt="Проект LAB"
+								alt="Проєкт LAB"
 								width="370"
-								height="294"
 							/>
 							<h2 class="portfolio-list-title">
-								Проект
+								Проєкт
 								<span lang="eu">LAB</span>
 							</h2>
 							<p class="portfolio-list-text">Маркетинг</p>
@@ -167,10 +168,9 @@
 								alt="Растущий
 							бизнес"
 								width="370"
-								height="294"
 							/>
 							<h2 class="portfolio-list-title"><span lang="eu">Growing Business</span></h2>
-							<p class="portfolio-list-text">Приложение</p>
+							<p class="portfolio-list-text">Додаток</p>
 						</li>
 					</ul>
 				</div>
@@ -188,7 +188,7 @@
 						rel="noreferrer noopener nofollow"
 						class="address-text link"
 					>
-						г. Киев, пр-т Леси Украинки, 26
+						м. Київ, пр-т Лесі Українки, 26
 					</a>
 					<ul class="footer-contact list">
 						<li class="footer-contact-list link">
