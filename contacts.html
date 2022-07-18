@@ -20,9 +20,9 @@
 	</head>
 	<body class="page">
 		<!-- Верхняя линия -->
-		<header class="page-header container container-padding-no">
+		<header class="page-header container">
 			<!-- Menu Nav -->
-			<div class="container">
+			<div class="container container-padding-no">
 				<nav class="header-nav">
 					<a class="logo-header link" lang="en" href="./index.html"> <span class="logo-colorized">Web</span>Studio</a>
 					<ul class="header-nav-list list">
@@ -32,7 +32,7 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="container">
+			<div class="container container-padding-no">
 				<ul class="header-auth-nav list">
 					<li class="header-auth-item">
 						<a class="header-auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -46,49 +46,59 @@
 		</header>
 		<main>
 			<!-- Портфолио -->
-			<section class="section-portfolio section">
+			<section class="section-contacts section">
+				<h2 class="section-team-title">Контакти</h2>
+
 				<div class="container">
-					<ul class="section-portfolio-list list">
-						<li class="portfolio-list-item">
-							<img
-								src="./images/portfolio/1-web-site.jpg"
-								class="portfolio-list-img"
-								alt="Веб-сайт Технокряк"
-								width="370"
-								height="294"
-							/>
-							<h2 class="portfolio-list-title">Технокряк</h2>
-							<p class="portfolio-list-text">Веб-сайт</p>
+					<ul class="section-contact-list list">
+						<li class="contacts-list-item">
+							<a href="mailto:info@devstudio.com">
+								<img
+									src="./images/contacts/icon_mail_address.png"
+									width="200"
+									alt="Адрес электронной
+									почты"
+								/>
+							</a>
+							<div class="portfolio-block-info">
+								<h2 class="contacts-list">Контактный адрес электронной почты</h2>
+								<a class="comtacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+								<p class="contacts-list-text">Отвечаем в течении одного рабочего дня</p>
+							</div>
 						</li>
-						<li class="portfolio-list-item">
-							<img
-								src="./images/portfolio/2-design.jpg"
-								class="portfolio-list-img"
-								alt="Постер New Orlean vs Golden Star"
-								width="370"
-								height="294"
-							/>
-							<h2 class="portfolio-list-title">
-								Постер
-								<span lang="en">New Orlean vs Golden Star</span>
-							</h2>
-							<p class="portfolio-list-text">Дизайн</p>
+
+						<li class="contacts-list-item">
+							<a href="tel:+380961111111">
+								<img
+									src="./images/contacts/icon_phone_number.png"
+									width="200"
+									alt="Контактный номер
+									телефона"
+								/>
+							</a>
+							<div class="portfolio-block-info">
+								<h2 class="contacts-list">Контактный номер телефона</h2>
+								<a class="comtacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
+								<p class="contacts-list-text">Ждем Ваших обращений</p>
+							</div>
 						</li>
-						<li class="portfolio-list-item">
-							<img
-								src="./images/portfolio/3-applikation-seafood.jpg"
-								class="portfolio-list-img"
-								alt="Ресторан
-							Seafood"
-								width="370"
-								height="294"
-							/>
-							<h2 class="portfolio-list-title">
-								Ресторан
-								<span lang="en">Seafood</span>
-							</h2>
-							<p class="portfolio-list-text">Приложение</p>
-						</li>
+					</ul>
+				</div>
+				<div class="iframe-map container">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5083.558867275931!2d30.538386!3d50.426581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf0e033ecbe9%3A0x57a4dffefec77da0!2z0LHRg9C7LiDQm9C10YHQuCDQo9C60YDQsNC40L3QutC4LCAyNiwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1657380408464!5m2!1sru!2sua"
+						width="400"
+						height="300"
+						style="border: 10px"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+					<div class="portfolio-block-info">
+						<h2 class="contacts-list">Как нас найти</h2>
+						<p>г. Киев, пр-т Леси Украинки, 26</p>
+						<p class="contacts-list-text">Ждем Вас</p>
+					</div>
 				</div>
 			</section>
 		</main>
