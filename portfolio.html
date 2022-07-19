@@ -11,30 +11,37 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
-		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body class="page">
 		<!-- Верхняя линия -->
-		<header class="page-header container">
+		<header class="main-page-header">
 			<!-- Menu Nav -->
-			<div class="container container-padding-no">
+			<div class="header-container container">
 				<nav class="header-nav">
-					<a class="logo-header link" lang="en" href="./index.html"> <span class="logo-colorized">Web</span>Studio</a>
+					<a class="logo-header link" lang="en" href="./index.html">
+						<span class="logo-colorized">Web</span>Studio</a
+					>
 					<ul class="header-nav-list list">
-						<li class="header-nav-item"><a class="header-nav-link link" href="./index.html">Студія</a></li>
+						<li class="header-nav-item">
+							<a class="header-nav-link link" href="./index.html">Студія</a>
+						</li>
 						<li class="header-nav-item">
 							<a class="header-nav-link link curent" href="./portfolio.html">Портфоліо</a>
 						</li>
-						<li class="header-nav-item"><a class="header-nav-link link" href="./contacts.html">Контакти</a></li>
+						<li class="header-nav-item">
+							<a class="header-nav-link link" href="./contacts.html">Контакти</a>
+						</li>
 					</ul>
 				</nav>
-			</div>
-			<div class="container container-padding-no">
+
 				<ul class="header-auth-nav list">
 					<li class="header-auth-item">
 						<a class="header-auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -44,7 +51,6 @@
 					</li>
 				</ul>
 			</div>
-			<!-- </div> -->
 		</header>
 		<main>
 			<!-- Портфолио -->
@@ -53,20 +59,32 @@
 					<h1 class="section-portfolio-title visually-hidden">Портфоліо</h1>
 					<!-- Фильтр -->
 					<ul class="section-portfolio-filter list">
-						<li class="filter-button-item"><button class="button-list button-curent" type="button">Всі</button></li>
+						<li class="filter-button-item">
+							<button class="button-list button-curent" type="button">Всі</button>
+						</li>
 
-						<li class="filter-button-item"><button class="button-list" type="button">Веб-сайти</button></li>
-						<li class="filter-button-item"><button class="button-list" type="button">Додатки</button></li>
-
-						<li class="filter-button-item"><button class="button-list" type="button">Дизайн</button></li>
-
-						<li class="filter-button-item"><button class="button-list" type="button">Маркетинг</button></li>
+						<li class="filter-button-item">
+							<button class="button-list" type="button">Веб-сайти</button>
+						</li>
+						<li class="filter-button-item">
+							<button class="button-list" type="button">Додатки</button>
+						</li>
+						<li class="filter-button-item">
+							<button class="button-list" type="button">Дизайн</button>
+						</li>
+						<li class="filter-button-item">
+							<button class="button-list" type="button">Маркетинг</button>
+						</li>
 					</ul>
 				</div>
 				<div class="container">
 					<ul class="section-portfolio-list list">
 						<li class="portfolio-list-item">
-							<img src="./images/portfolio/1-web-site.jpg" class="portfolio-list-img" alt="Веб-сайт Технокряк" />
+							<img
+								src="./images/portfolio/1-web-site.jpg"
+								class="portfolio-list-img"
+								alt="Веб-сайт Технокряк"
+							/>
 							<div class="portfolio-block-info">
 								<h2 class="portfolio-list-title">Технокряк</h2>
 								<p class="portfolio-list-text">Веб-сайт</p>
@@ -145,7 +163,9 @@
 								width="370"
 							/>
 							<div class="portfolio-block-info">
-								<h2 class="portfolio-list-title"><span lang="eu">Inspiration has no Borders</span></h2>
+								<h2 class="portfolio-list-title">
+									<span lang="eu">Inspiration has no Borders</span>
+								</h2>
 								<p class="portfolio-list-text">Веб-сайт</p>
 							</div>
 						</li>
@@ -198,10 +218,11 @@
 				</div>
 			</section>
 		</main>
-		<!-- Подвал -->
 		<footer class="footer">
 			<div class="container">
-				<a class="logo-footer link" lang="en" href="./index.html"> <span class="logo-colorized">Web</span>Studio</a>
+				<a class="logo-footer link" lang="en" href="./index.html">
+					<span class="logo-colorized">Web</span>Studio</a
+				>
 				<!-- Адрес -->
 				<address class="address">
 					<a
@@ -214,7 +235,9 @@
 					</a>
 					<ul class="footer-contact list">
 						<li class="footer-contact-list link">
-							<a class="footer-contact-item link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							<a class="footer-contact-item link" href="mailto:info@devstudio.com"
+								>info@devstudio.com</a
+							>
 						</li>
 						<li class="footer-contact-list link">
 							<a class="footer-contact-item link" href="tel:+380961111111">+38 096 111 11 11</a>
